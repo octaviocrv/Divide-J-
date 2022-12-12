@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Divide Já - Login | Front</title>
+    <link rel="stylesheet" type="text/css" href="../Tela Login/style-login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+
+<body>
+    <div class="coluna1">
+        <div class="imagem">
+            <img src="../Imagens/Divide já logo.png"/>
+        </div>
+        <form class="register-form">
+                <input class="login_senha" type="text" placeholder="Usuario" id="login">
+                <span class="login_input_border"></span>
+
+                <input class="login_senha" type="password" placeholder="Senha" id="senha">   
+                <span class="login_input_border"></span> 
+               
+
+                <input class="login_senha" type="password" placeholder="Confirmar Senha" id="confirmar-senha">   
+                <span class="login_input_border"></span> 
+               
+
+                <input class="buton" id="btn-submit" type="submit" value="Confirmar" onclick="Cadastro(); return false">      
+
+        </form>
+    </div>
+    <script>
+        function Cadastro(){
+    
+        var login = document.getElementById('login').value;
+        var senha = document.getElementById('senha').value;
+        var confirma_senha = document.getElementById('confirmar-senha').value;
+        if(login==""||senha==""||confirma_senha==""){
+            alert('Informe todos os campos!')
+        }
+        if(confirma_senha!=senha){
+            alert('As senhas não conferem, redigite por gentileza!')
+        }
+        else if(login != "" && senha !="" && confirma_senha!=""){
+            alert('Cadastrado com sucesso');    
+            location.href ="../Tela Login/login.html"
+        }
+}
+    </script>
+</body>
+
+</html>

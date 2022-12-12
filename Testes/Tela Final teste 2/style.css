@@ -1,0 +1,201 @@
+/*  CSS INFORMATION  --------------------------------------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+}
+body {
+  background: #eee;
+}
+.h2 {
+  cursor: pointer;
+}
+
+/*  NAVBAR --------------------------------------------------------------------------- */
+
+#side_nav h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+img {
+  text-align: center;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(17, 1, 1, 0.226),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pb-4 {
+  height: 40%;
+}
+
+#side_nav {
+  /* navbar config***********************/
+  position: absolute;
+  background: #ffffff;
+  min-width: 250px;
+  width: 18%;
+  height: 100%;
+  overflow: hidden;
+  line-height: 30px;
+  text-align: center;
+  z-index: 1;
+}
+
+.list-unstyled li {
+  height: 50px;
+}
+
+.content {
+  color: black;
+  text-align: center;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: outside;
+  list-style-image: none;
+}
+
+#side_nav li {
+  margin: 10px;
+  padding: 15px 15px;
+  border-radius: 10px;
+  transition: 0.2s;
+  text-align: left;
+  cursor: pointer;
+}
+
+#side_nav ion-icon {
+  font-size: 20px;
+  padding-right: 8px;
+}
+
+#side_nav ion-icon:hover {
+  color: #d68266;
+}
+
+#side_nav a {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#side_nav a:hover {
+  color: #d68266;
+}
+#side_nav a::after {
+  position: absolute;
+  content: " ";
+  width: 3px;
+  height: 0;
+  background-color: #d68266;
+  bottom: 0;
+  left: -5px;
+  transition: height 0.5s;
+}
+
+#side_nav a:hover::after {
+  height: 30px;
+}
+
+/*  CONTEUDO --------------------------------------------------------------------------- */
+
+.content {
+  color: black;
+  text-align: center;
+}
+
+.figure img {
+  /* imagem posiçao */
+  position: relative;
+  height: 100vh;
+  width: 10000px;
+  background-size: contain;
+  opacity: 70%;
+}
+
+/* TELA FINAL OCTAVIO */
+
+.user_tittle {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.user_subtittle {
+  font-size: 20px;
+  font-weight: 300;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.content-container {
+     /* quadrado branco config***********************/
+  background-color: white;
+  position: absolute;
+  z-index: 999;
+  width: 50%;
+  height: 90%;
+  border-radius: 40px;
+  margin-left: 20rem;
+  box-shadow: 0 4px 8px 0 rgba(17, 1, 1, 0.226),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+.content-container h1 {
+    letter-spacing: 2px;
+    margin-top: 30px;
+  font-weight: 500;
+}
+.content-container h3 {
+    letter-spacing: 2px;
+  margin-top: 2rem;
+  font-weight: 300;
+}
+
+/*  BUTTONS --------------------------------------------------------------------------- */
+
+.btn {
+    margin-top: 30px;
+  font-weight: 800;
+  padding: 25px;
+  margin-bottom: 30px;
+  border: none;
+  color: gray;
+  background-color: rgb(219, 219, 219);
+}
+
+.butao2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+
+
+
+}
+
+.btn2 {
+  color: gray;
+  border: none;
+  background-color: rgb(219, 219, 219);
+  font-weight: 800;
+  padding: 25px;
+  
+}
+
+.texto-p {
+  /* como subir isso aqui para o meio ? */
+  display: inline-block;
+  font-weight: 400;
+  opacity: 50%;
+  
+}
