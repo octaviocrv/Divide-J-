@@ -1,0 +1,1 @@
+/* Arquivo base para scripts globais da aplicacao. */

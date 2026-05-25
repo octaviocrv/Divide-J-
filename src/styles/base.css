@@ -1,0 +1,12 @@
+:root {
+  --font-base: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-base);
+}
