@@ -1,7 +1,6 @@
 <h1 align="center"> Divide Já • Divisão de Contas </h1>
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b5c0878e-eb31-4b3a-9c37-7c356903f132" />
-
+<img width="1366" height="768" alt="divide" src="https://github.com/user-attachments/assets/c259d332-a26e-4796-8549-0f39f9fb128d" />
 
 <img width="1360" height="649" alt="Interface do Divide Já" src="https://github.com/user-attachments/assets/sua-imagem-aqui" />
 
