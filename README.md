@@ -1,7 +1,6 @@
 <h1 align="center"> Divide Já • Divisão de Contas </h1>
 
 <img width="1366" height="768" alt="divide" src="https://github.com/user-attachments/assets/c259d332-a26e-4796-8549-0f39f9fb128d" />
-<img width="1331" height="645" alt="image" src="https://github.com/user-attachments/assets/49982ad8-ed6f-4ce2-8697-fc4b593568c2" />
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
@@ -11,6 +10,8 @@
 </p>
 
 > Aplicativo web para divisão de contas entre amigos: crie mesas, adicione itens e veja o valor exato da parte de cada um na hora, sem complicações.
+
+<img width="1331" height="645" alt="image" src="https://github.com/user-attachments/assets/49982ad8-ed6f-4ce2-8697-fc4b593568c2" />
 
 ## Sobre o Projeto
 
