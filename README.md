@@ -11,8 +11,6 @@
 
 > Aplicativo web para divisão de contas entre amigos: crie mesas, adicione itens e veja o valor exato da parte de cada um na hora, sem complicações.
 
-<img width="1331" height="645" alt="image" src="https://github.com/user-attachments/assets/49982ad8-ed6f-4ce2-8697-fc4b593568c2" />
-
 ## Sobre o Projeto
 
 O **Divide Já** nasceu de uma necessidade real que surgiu durante os intervalos e saídas com os amigos na PUC. Sempre que a conta da lanchonete ou do bar chegava, a matemática da divisão gerava confusão e perda de tempo. Para resolver esse problema clássico de forma definitiva, esta solução foi idealizada.
@@ -29,7 +27,8 @@ O projeto é uma aplicação web focada em utilidade e clareza, permitindo que o
 - **Histórico e Transparência:** Registro completo de todas as mesas encerradas recentemente para consultas futuras e prestação de contas.
 - **Perfil Exclusivo:** Sistema de usuário customizado com tag única de identificação (ex: #3345) e um painel de configurações para ajustes de conta.
 
----
+
+<img width="1331" height="645" alt="image" src="https://github.com/user-attachments/assets/49982ad8-ed6f-4ce2-8697-fc4b593568c2" />
 
 ## Tecnologias Utilizadas
 
