@@ -3,9 +3,6 @@
 <img width="1366" height="768" alt="divide" src="https://github.com/user-attachments/assets/c259d332-a26e-4796-8549-0f39f9fb128d" />
 <img width="1331" height="645" alt="image" src="https://github.com/user-attachments/assets/49982ad8-ed6f-4ce2-8697-fc4b593568c2" />
 
-
-<img width="1360" height="649" alt="Interface do Divide Já" src="https://github.com/user-attachments/assets/sua-imagem-aqui" />
-
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
